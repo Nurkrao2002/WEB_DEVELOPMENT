@@ -1,0 +1,126 @@
+.container {
+    height: 95vh;
+    /* width: 95vw; */
+    display: grid;
+    border-radius: 1px;
+    border-color: blanchedalmond;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* grid-template-rows: repeat(6,auto); */
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+   
+}
+.item1{
+/* height: 180px; */
+/* width: 250px; */
+border: 1px solid black;
+background-color: pink;
+
+
+}
+.item2{
+/* height: 100px; */
+/* width: 100px; */
+border: 1px solid black;
+background-color: pink;
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.item3{
+/* height: 100px;
+width: 100px; */
+border: 1px solid black;
+background-color: burlywood;
+grid-column-start: 4;
+grid-column-end: 6;
+grid-row-start: 1;
+grid-row-end: 5;
+
+
+
+}
+h1 {
+    font-size: larger;
+    font-family: 'Lucida Sans';
+    padding-top: 250px;
+   text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: aqua;
+
+   
+}
+.item4{
+/* height: 100px;
+width: 100px; */
+border: 1px solid black;
+background-color: yellow;
+
+}
+.item5{
+/* height: 100px;
+width: 100px; */
+border: 1px solid black;
+background-color: greenyellow;
+
+}
+.item6{
+/* height: 100px;
+width: 100px; */
+border: 1px solid black;
+background-color: lightgreen;
+
+}
+.item7{
+/* height: 100px;
+width: 100px; */
+border: 1px solid black;
+background-color: red;
+
+}
+.item8{
+/* height: 100px; */
+/* width: 120px; */
+border: 1px solid black;
+background-color: blue;
+/* grid-column-start: 2; */
+/* grid-column-end: 2; */
+/* grid-column-gap: px; */
+/* grid-gap: 12px; */
+
+
+}
+.item9{
+/* height: 100px; */
+/* width: 100px; */
+border: 1px solid black;
+background-color: aqua;
+/* grid-column-start: 2; */
+/* grid-column-end: 4; */
+
+
+}
+.item10{
+/* height: 100px; */
+/* width: 100px; */
+border: 1px solid black;
+background-color: azure;
+
+}
+.item11{
+/* height: 100px; */
+/* width: 100px; */
+border: 1px solid black;
+background-color: blueviolet;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+.item12{
+/* height: 100px; */
+/* width: 100px; */
+border: 1px solid black;
+background-color: bisque;
+
+}

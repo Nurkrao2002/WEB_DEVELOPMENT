@@ -1,0 +1,105 @@
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-image:url("background.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .cards {
+            border-color: black;
+            border: 1px;
+            border-style: double;
+            border-radius: 24px;
+            width: 300px;
+            height: 480px;
+            margin-left: 480px;
+            margin-top: 58px;
+            background: linear-gradient(to top, rgba(240, 94, 238, 0.8)60%, rgba(109, 123, 232, 0.8)80% );
+            
+            
+            
+            
+
+        }
+
+        .cards img {
+
+          
+            height: 150px;
+            width: 140px;
+            margin-top:40px ;
+            margin-left: 85px;
+            border-radius: 30px;
+
+        }
+
+        .title  h3{
+
+                text-align: center;
+                margin-left: 15px;
+                margin-top: 8px;
+
+        }
+
+        .title h5 {
+
+            text-align: center;
+            font-size: small;
+            margin-left: 17px;
+            margin-top: 7px;
+        }
+
+        .nur {
+
+            margin-top: -9px;
+            margin-left: 25px;
+            
+            
+
+
+        }
+        .nur img {
+            border-radius: 0px;
+            height: 90px;
+            width: 90px;
+        }
+
+        
+        .icons { 
+            
+            display: block;
+            transition: 0.3s, ease-in-out;
+            display: inline-block;
+            cursor: pointer;
+            margin: 0 0.5rem;
+
+              animation: bounce;                        /* referring directly to the animation's @keyframe declaration */
+                 animation-duration: 1.5s;                 /* don't forget to set a duration! */
+            
+        }       
+            
+        
+
+        .icons img {
+
+           margin-top: 24px;
+           margin-left: 26px;
+           height: 60px;
+           width: 39px;
+           text-align: center; 
+           transition: 0.3s, ease-in-out;  
+           color: aquamarine;
+            
+           
+        }
+        .icons img:hover {
+
+            color: rgb(255, 255, 255);
+            
+        }
+
+
